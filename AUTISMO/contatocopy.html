@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="author" content="Kaique, Kauany">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="images/main/logo-autismo.png" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="images/main/logo-autismo.png" alt="Logo autismo.">
+        <ul>
+            <li><a href="./indexcopy.html">Home</a></li>
+            <li><a href="./nossotrabalhocopy.html">Nosso trabalho</a></li>
+            <li><a href="./quemsomoscopy.html">Quem somos</a></li>
+            <li><a href="./contatocopy.html">Contato</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <img src="images/5/Capa.png" alt="Secretaria">
+    </section>
+    <section class="header">
+        <h1>ENSINA-ME DE VÁRIAS MANEIRAS, POIS ASSIM SOU CAPAZ DE APRENDER!</h1>
+    </section>
+    <section class="about">
+        <h2>⬇️Entre em Contato⬇️</h2>
+        <p>Entre em contato conosco mande-nos um e-mail para Autismo@gmail.com Responderemos o mais breve possível.</p>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/5/Sabara.png" alt="Icone do cartão.">
+                <div class="card-body">
+                    <p class="card-title">Sabará Hospital</p>
+                    <p class="card-description">Uma equipe médica especializada, grupo de enfermagem qualificado e um
+                        grupo de navegação prontos para atender qualquer situação. </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/5/Pensi.png" alt="Icone do cartão.">
+                <div class="card-body">
+                    <p class="card-title">Instituto PENSI </p>
+                    <p class="card-description">o Centro de Pesquisa do Instituto PENSI desenvolve pesquisas clínicas,
+                        observacionais e epidemiológicas, através de incentivos ao seu corpo clínico interno e parcerias
+                        com indústrias farmacêuticas e outras instituições de pesquisa.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/5/Autismo.png" alt="Icone do cartão.">
+                <div class="card-body">
+                    <p class="card-title">Autismo e Realidade</p>
+                    <p class="card-description">Com a integração com a Fundação José Luiz Egydio Setúbal em 2015, o
+                        Autismo e Realidade passou a fazer parte da estrutura do Instituto PENSI, responsável por
+                        desenvolver programas de ensino e pesquisa em saúde infantil. </p>
+                </div>
+            </div>
+        </div>
+        <p>Se você acha que seu filho é autista, busque ajuda especializada
+            Consulte a nossa base de instituições de apoio com profissionais qualificados em todo o Brasil.</p>
+    </section>
+    <section class="quote" onclick="javascript:location.href='./formulario.html'">
+        <div class="quote-body">
+            <h2>Clique Aqui se Precisa de Ajuda!</h2>
+        </div>
+    </section>
+    <section class="footer">
+        <ul class="footer-list">
+            <li>
+                <h2>Empresa</h2>
+            </li>
+            <li><a href="./indexcopy.html">Home</a></li>
+            <li><a href="./nossotrabalhocopy.html">Nosso trabalho</a></li>
+            <li><a href="./quemsomoscopy.html">Quem Somos</a></li>
+            <li><a href="./contatocopy.html">Contato</a></li>
+            <li><a href="/">autismo@gmail.com</a></li>
+        </ul>
+        <ul class="footer-list">
+            <li>
+                <h2>Termos</h2>
+            </li>
+            <li><a href="/">Termos e Condições</a></li>
+            <li><a href="/">Política de Privacidade</a></li>
+        </ul>
+    </section>
+</body>
+<style>
+    /* Todos os elementos */
+    body {
+        font-family: 'Inter';
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    a:link,
+    a:visited,
+    a:active {
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    /* Section navbar */
+    .navbar {
+        background-color: #51C5FF;
+        height: 10svh;
+        display: flex;
+        padding: 16px;
+        align-items: center;
+    }
+
+    .navbar img {
+        height: 100%;
+    }
+
+    .navbar ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .navbar a {
+        margin-right: 20px;
+    }
+
+    /* Section hero */
+    .hero {
+        height: 80svh;
+    }
+
+    .hero img {
+        object-fit: cover;
+        height: 80svh;
+        width: 100svw;
+    }
+
+    /* Section header */
+    .header {
+        background-color: #51C5FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+    }
+
+    .header h1 {
+        padding: 24px;
+        margin: auto;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    /* Section about */
+    .about {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        padding: 80px 20%;
+        text-align: center;
+        height: fit-content;
+    }
+
+    .card-container {
+        flex-direction: row;
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        border-radius: 16px;
+        width: 30%;
+        max-width: 400px;
+        min-width: 200px;
+        border: 2px solid #414141;
+    }
+
+    .card-body {
+        padding: 0 24px;
+    }
+
+    .card-title {
+        font-weight: 700;
+    }
+
+    .card img {
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+        object-fit: cover;
+        width: 100%;
+        height: 140px;
+    }
+
+    /* Section quote */
+    .quote {
+        border-radius: 16px;
+        border: 2px solid #414141;
+        margin: 0 auto 80px auto;
+        width: fit-content;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .quote img {
+        border-radius: 14px 0 0 14px;
+        width: 20;
+        height: 20;
+    }
+
+    .quote-body {
+        padding: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer {
+        background-color: #323232;
+        width: 100%;
+        display: flex;
+        padding: 40px 0;
+    }
+
+    .footer-list {
+        list-style-type: none;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        color: #51C5FF;
+    }
+
+    .footer-list a {
+        color: #FFF;
+    }
+</style>
+
+</html>
