@@ -68,10 +68,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            background: linear-gradient(135deg, #1E3A8A 0%, #51C5FF 100%);
+            background: linear-gradient(135deg, #51C5FF 0%, #51C5FF 100%);
         }
         .bg-blue-900{
-            background-color: #51C5FF !important;
+            background-color: #000 !important;
         }
     </style>
 </head>
