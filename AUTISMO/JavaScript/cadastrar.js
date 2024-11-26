@@ -22,7 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
         })
             .then(response => response.json())
             .then(data => {
+                window.alert("Logado Com Sucesso");
                 console.log('Dados enviados com sucesso:', data);
+                cadFormulario.reset();
             })
             .catch(error => {
                 console.error('Erro ao enviar os dados:', error);

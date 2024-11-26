@@ -41,6 +41,7 @@ if (isset($_GET['delete']) && isset($_GET['id'])) {
     <div class="container">
         <div class="header">
             <span>Tabela Administrativa</span>
+            <a href="./indexcopy.html"><img class="logoTable" src="./images/main/logo-autismo.png" alt=""></a>
         </div>
 
         <?php if(isset($_GET['deleted']) && $_GET['deleted'] == 'true'): ?>

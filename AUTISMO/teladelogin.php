@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
     if ($user) {
-        // Login successful
+        // Login successfull
         $_SESSION['user_id'] = $user['id'];
         $_SESSION['nome'] = $user['nome'];
         $_SESSION['is_admin'] = $user['adm'] == 1;
